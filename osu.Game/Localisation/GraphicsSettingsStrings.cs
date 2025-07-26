@@ -140,6 +140,11 @@ namespace osu.Game.Localisation
         public static LocalisableString UseHardwareAcceleration => new TranslatableString(getKey(@"use_hardware_acceleration"), @"Use hardware acceleration");
 
         /// <summary>
+        /// "Enable DLSS"
+        /// </summary>
+        public static LocalisableString EnableDlss => new TranslatableString(getKey(@"enable_dlss"), @"Enable DLSS");
+
+        /// <summary>
         /// "JPG (web-friendly)"
         /// </summary>
         public static LocalisableString Jpg => new TranslatableString(getKey(@"jpg_web_friendly"), @"JPG (web-friendly)");

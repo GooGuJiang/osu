@@ -92,6 +92,7 @@ namespace osu.Game.Configuration
 
             SetDefault(OsuSetting.ExternalLinkWarning, true);
             SetDefault(OsuSetting.PreferNoVideo, false);
+            SetDefault(OsuSetting.UseDLSS, false);
 
             SetDefault(OsuSetting.ShowOnlineExplicitContent, false);
 
@@ -413,6 +414,7 @@ namespace osu.Game.Configuration
         ScoreDisplayMode,
         ExternalLinkWarning,
         PreferNoVideo,
+        UseDLSS,
         Scaling,
         ScalingPositionX,
         ScalingPositionY,
